@@ -39,7 +39,5 @@
             "Education"
         ]
     },
-    "target_feature": [
-        "Attrition"
-    ]
+    "target_feature": "Attrition"
 }

@@ -7,7 +7,7 @@ settings = {
                  "feature_names_continuous": [],
                  "feature_names_ordinal": []
                  },
-    "target_feature": []
+    "target_feature": None
     }
 
 # Write to a JSON file
