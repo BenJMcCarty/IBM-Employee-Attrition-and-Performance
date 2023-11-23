@@ -1,27 +1,31 @@
 {
-    "source": "../data/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+    "source": "../../data/WA_Fn-UseC_-HR-Employee-Attrition.csv",
     "feature_types": {
         "feature_names_categorical": [
-            "PerformanceRating",
-            "RelationshipSatisfaction",
-            "EnvironmentSatisfaction",
-            "WorkLifeBalance",
-            "JobInvolvement",
-            "StockOptionLevel",
-            "JobSatisfaction",
-            "JobLevel",
-            "Education"
+            "BusinessTravel",
+            "Department",
+            "EducationField",
+            "Gender",
+            "JobRole",
+            "MaritalStatus",
+            "OverTime"
         ],
         "feature_names_continuous": [
-            "PerformanceRating",
-            "RelationshipSatisfaction",
-            "EnvironmentSatisfaction",
-            "WorkLifeBalance",
-            "JobInvolvement",
-            "StockOptionLevel",
-            "JobSatisfaction",
-            "JobLevel",
-            "Education"
+            "Age",
+            "DailyRate",
+            "DistanceFromHome",
+            "EmployeeNumber",
+            "HourlyRate",
+            "MonthlyIncome",
+            "MonthlyRate",
+            "NumCompaniesWorked",
+            "PercentSalaryHike",
+            "TotalWorkingYears",
+            "TrainingTimesLastYear",
+            "YearsAtCompany",
+            "YearsInCurrentRole",
+            "YearsSinceLastPromotion",
+            "YearsWithCurrManager"
         ],
         "feature_names_ordinal": [
             "PerformanceRating",
