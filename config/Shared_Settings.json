@@ -1,0 +1,41 @@
+{
+    "source": "../data/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+    "feature_types": {
+        "feature_names_categorical": [
+            "PerformanceRating",
+            "RelationshipSatisfaction",
+            "EnvironmentSatisfaction",
+            "WorkLifeBalance",
+            "JobInvolvement",
+            "StockOptionLevel",
+            "JobSatisfaction",
+            "JobLevel",
+            "Education"
+        ],
+        "feature_names_continuous": [
+            "PerformanceRating",
+            "RelationshipSatisfaction",
+            "EnvironmentSatisfaction",
+            "WorkLifeBalance",
+            "JobInvolvement",
+            "StockOptionLevel",
+            "JobSatisfaction",
+            "JobLevel",
+            "Education"
+        ],
+        "feature_names_ordinal": [
+            "PerformanceRating",
+            "RelationshipSatisfaction",
+            "EnvironmentSatisfaction",
+            "WorkLifeBalance",
+            "JobInvolvement",
+            "StockOptionLevel",
+            "JobSatisfaction",
+            "JobLevel",
+            "Education"
+        ]
+    },
+    "target_feature": [
+        "Attrition"
+    ]
+}
